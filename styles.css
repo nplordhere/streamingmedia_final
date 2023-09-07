@@ -59,6 +59,7 @@ body {
 header {
     background-image: linear-gradient(to right #2104D9, black);
     padding: 10px;
+    position: relative;
     top: 100px;
 }
 main {
@@ -67,7 +68,7 @@ main {
 nav {
     background-color: #020873;
     position: relative;
-    top: 0px;
+    top: -100px;
 }
 nav a {
     color: #ffffff;
