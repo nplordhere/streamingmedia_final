@@ -100,6 +100,9 @@ footer {
 .darkBlue {
     background-color: #020659;
 }
+#trending {
+    top: 15px;
+}
 /* Text Styling */
 
 h1 {
@@ -291,6 +294,8 @@ button:hover {
     #secondaryScrolls {
         display: flex;
         flex-direction: row;
-        width: 375px;
+    }
+    #playlists, #curated {
+        width: 50%;
     }
 }
