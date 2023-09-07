@@ -55,12 +55,41 @@ body {
     margin: 0 auto;
     width: 375px;
 }
+header {
+    background-image: linear-gradient(to right #2104D9, black);
+    padding: 10px;
+    position: relative;
+    width: 100%;
+}
 nav {
-
+    background-color: #020873;
+    position: absolute;
+    top: 0px;
+    width: 100%;
 }
-main {
 
+
+/* Text Styling */
+
+h1 {
+    font-size: 1.25em;
 }
+h2 {
+    color: #590242;
+}
+h1, h2, h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+h2, h3 {
+    font-size: 1em;
+}
+nav h2 {
+    visibility: hidden;
+}
+
+/* Hamburger */
 ul {
     overflow: hidden;
     max-height: 0;
@@ -148,11 +177,15 @@ audio::-webkit-media-controls-enclosure {
     height: 50px;
     width: 350px;
 }
+dd {
+    
+}
 dl {
-    display: flex;
-
+    position: absolute;
+    top: 100px;
 }
 dt {
+    font-style: italic;
     padding-right: 5px;
 }
 audio {
@@ -187,6 +220,7 @@ audio {
 #playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
     background: #ffffff;
 }
+
 /*  */
 @media screen and (min-width:834px) {
     ul {
@@ -198,5 +232,8 @@ audio {
     }
     label span, input {
         display: none;
+    }
+    body {
+        width: 834px;
     }
 }
