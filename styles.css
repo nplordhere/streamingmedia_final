@@ -301,9 +301,12 @@ button:hover {
         display: flex;
         flex-direction: row;
     }
-    .scroll:not(:first-of-type) {
+    #playlists, #curated {
         width: 50%;
         overflow-x: hidden;
         overflow-y: auto;
+    }
+    li:first-child {
+        position: relative;
     }
 }
