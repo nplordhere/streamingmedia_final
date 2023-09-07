@@ -60,7 +60,8 @@ header {
     background-image: linear-gradient(to right, #2104D9, black);
     padding: 10px;
     position: relative;
-    top: 100px;
+    top: 92px;
+    color: #ffffff;
 }
 main {
     position: relative;
@@ -125,6 +126,8 @@ nav h2 {
 li:first-child {
     font-variant: small-caps;
     font-weight: bold;
+    position: absolute;
+    top: 5px;
 }
 /* Hamburger */
 ul {
@@ -288,14 +291,19 @@ button:hover {
     nav {
         top: -100px;
     }
+    header {
+        top: 90px;
+    }
     button {
-        justify-content: end;
+        justify-content: right;
     }
     #secondaryScrolls {
         display: flex;
         flex-direction: row;
     }
-    #playlists, #curated {
+    .scroll:not(:first-of-type) {
         width: 50%;
+        overflow-x: hidden;
+        overflow-y: auto;
     }
 }
