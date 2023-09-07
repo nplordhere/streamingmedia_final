@@ -57,7 +57,7 @@ body {
     background-color: #ffffff;
 }
 header {
-    background-image: linear-gradient(to right #2104D9, black);
+    background-image: linear-gradient(to right, #2104D9, black);
     padding: 10px;
     position: relative;
     top: 100px;
@@ -68,7 +68,7 @@ main {
 nav {
     background-color: #020873;
     position: relative;
-    top: -100px;
+    top: -140px;
 }
 nav a {
     color: #ffffff;
@@ -119,7 +119,10 @@ h2, h3 {
 nav h2 {
     visibility: hidden;
 }
-
+li:first-child {
+    font-variant: small-caps;
+    font-weight: bold;
+}
 /* Hamburger */
 ul {
     overflow: hidden;
@@ -248,7 +251,19 @@ audio {
 #playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
     background: #ffffff;
 }
-
+button {
+    text-decoration: none;
+    background-color: #590242;
+    color: #ffffff;
+    padding: 10px;
+    width: 150px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #020873;
+}
 /*  */
 @media screen and (min-width:834px) {
     ul {
@@ -263,5 +278,8 @@ audio {
     }
     body {
         width: 834px;
+    }
+    nav {
+        top: -100px;
     }
 }
