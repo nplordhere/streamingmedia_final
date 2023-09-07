@@ -228,11 +228,13 @@ dl {
 dt {
     font-style: italic;
     padding-right: 5px;
+    color: #590242;
 }
 audio {
     position: absolute;
     bottom: 150px;
     left: 5px;
+    color: #590242;
 }
 
 #trending ::-webkit-scrollbar {
@@ -273,7 +275,7 @@ button {
     border-radius: 5px;
 }
 button:hover {
-    background-color: #020873;
+    background-color: #020659;
 }
 /*  */
 @media screen and (min-width:834px) {
