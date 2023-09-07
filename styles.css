@@ -59,7 +59,8 @@ body {
 header {
     background-image: linear-gradient(to right #2104D9, black);
     padding: 10px;
-    position: relative;
+    position: absolute;
+    top: 100px;
 }
 main {
     position: relative;
@@ -68,7 +69,7 @@ nav {
     background-color: #020873;
     position: absolute;
     top: 0px;
-    width: 374px;
+    width: 375px;
 }
 nav a {
     color: #ffffff;
@@ -82,16 +83,16 @@ nav li {
     display: inline-block;
 }
 
-.playlists {
+#playlists {
     background-color: #2699FB;
 }
-#lightBlue {
+.lightBlue {
     background-color: #0D8DFB;
 }
-.curated {
+#curated {
     background-color: #020873;
 }
-#darkBlue {
+.darkBlue {
     background-color: #020659;
 }
 /* Text Styling */
@@ -202,12 +203,9 @@ audio::-webkit-media-controls-enclosure {
     height: 50px;
     width: 350px;
 }
-dd {
 
-}
 dl {
-    position: absolute;
-    top: 100px;
+    display: flex;
 }
 dt {
     font-style: italic;
