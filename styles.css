@@ -129,7 +129,9 @@ ul {
     max-height: 0;
     transition: max-height .2s ease-out;
 }
-
+#secondaryScrolls h2 {
+    background-color: #ffffff;
+}
 label {
     cursor: pointer;
     display: inline-block;
@@ -289,5 +291,6 @@ button:hover {
     #secondaryScrolls {
         display: flex;
         flex-direction: row;
+        width: 375px;
     }
 }
