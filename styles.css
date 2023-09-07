@@ -82,11 +82,11 @@ nav a {
 nav li {
     display: inline-block;
 }
-
 footer {
     background-color: #ffffff;
+    display: flex;
     padding: 25px;
-    justify-content: center;
+    align-items: center;
     color: #590242;
 }
 #playlists {
